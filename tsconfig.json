@@ -1,0 +1,11 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "include": ["src/**/*.ts"],
+  "compilerOptions": {
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["dom", "es2024"],
+    "outDir": "lib",
+    "declaration": true
+  }
+}
