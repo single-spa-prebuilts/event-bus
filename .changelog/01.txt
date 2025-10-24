@@ -1,0 +1,2 @@
+breaking
+Initial implementation, exporting eventBus and useEventBus hook
