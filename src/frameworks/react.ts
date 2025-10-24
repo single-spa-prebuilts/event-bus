@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { eventBus } from "../event-bus.js";
 
-export function useEventBus<Data = any>(name: string): Data {
+export function useEventBus<Data = any>(name: string): Data | undefined {
   const [data, setData] = useState<Data>();
 
   useEffect(() => {
-    const listener = (event) => {
+    const listener = (event: CustomEvent) => {
       setData(event.detail);
     };
 

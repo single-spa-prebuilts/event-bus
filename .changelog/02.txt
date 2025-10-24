@@ -1,0 +1,2 @@
+feature
+Create vue entrypoint and implement useEventBus composable
