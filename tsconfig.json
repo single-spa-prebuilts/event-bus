@@ -6,7 +6,6 @@
     "moduleResolution": "nodenext",
     "lib": ["dom", "es2024"],
     "outDir": "lib",
-    "declaration": true,
-    "experimentalDecorators": true
+    "declaration": true
   }
 }
