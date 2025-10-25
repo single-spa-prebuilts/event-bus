@@ -15,6 +15,10 @@
     "./vue": {
       "default": "./lib/vue.js",
       "types": "./lib/vue.d.ts"
+    },
+    "./angular": {
+      "default": "./lib/angular.js",
+      "types": "./lib/angular.d.ts"
     }
   },
   "scripts": {
@@ -29,6 +33,7 @@
   "license": "Proprietary",
   "packageManager": "pnpm@10.19.0",
   "dependencies": {
+    "@angular/core": "^20.3.7",
     "@types/react": "^19.2.2",
     "react": "^19.2.0",
     "vue": "^3.5.22"
